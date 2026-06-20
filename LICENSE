@@ -1,201 +1,298 @@
-                                 Apache License
-                           Version 2.0, January 2004
+================================================================================
+                           LICENÇA APACHE 2.0
+                           Versão 2.0, Janeiro de 2004
                         http://www.apache.org/licenses/
+================================================================================
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+   TERMOS E CONDIÇÕES PARA USO, REPRODUÇÃO E DISTRIBUIÇÃO
 
-   1. Definitions.
+   Esta licença aplica-se ao projeto Garimpo Local e a todos os seus
+   componentes, incluindo código fonte, documentação, assets e outros
+   recursos fornecidos como parte do projecto.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+   1. Definições.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+      "Licença" deve significar os termos e condições para uso, reprodução
+      e distribuição conforme definido nas Seções 1 a 9 deste documento.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+      "Licenciador" deve significar o proprietário dos direitos autorais ou
+      entidade autorizada pelo proprietário dos direitos autorais que está
+      concedendo a Licença.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+      "Entidade Legal" deve significar a união da entidade atuante e todas
+      as outras entidades que controlam, são controladas por, ou estão sob
+      controle comum com essa entidade. Para os fins desta definição,
+      "controle" significa (i) o poder, direto ou indireto, de causar a
+      direção ou gestão de tal entidade, seja por contrato ou
+      de outra forma, ou (ii) propriedade de cinquenta por cento (50%) ou
+      mais das ações em circulação, ou (iii) propriedade beneficiária de
+      tal entidade.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+      "Você" (ou "Seu") deve significar um indivíduo ou Entidade Legal
+      exercendo permissões concedidas por esta Licença.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+      "Fonte" deve significar a forma preferida para fazer modificações,
+      incluindo mas não limitado a código fonte de software, documentação
+      fonte e arquivos de configuração.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+      "Objeto" deve significar qualquer forma resultante de transformação
+      mecânica ou tradução de uma forma Fonte, incluindo mas não limitado a
+      código objeto compilado, documentação gerada e conversões para outros
+      tipos de mídia.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+      "Trabalho" deve significar o trabalho de autoria, seja em forma Fonte
+      ou Objeto, disponibilizado sob a Licença, conforme indicado por um
+      aviso de direitos autorais que está incluído ou anexado ao trabalho
+      (um exemplo é fornecido no Apêndice abaixo).
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+      "Trabalhos Derivados" deve significar qualquer trabalho, seja em forma
+      Fonte ou Objeto, baseado (ou derivado) do Trabalho e para o qual as
+      revisões editoriais, anotações, elaborações ou outras modificações
+      representam, como um todo, um trabalho original de autoria. Para os fins
+      desta Licença, Trabalhos Derivados não devem incluir trabalhos que
+      permanecem separáveis, ou apenas vinculam (ou vinculam por nome) às
+      interfaces do Trabalho e Trabalhos Derivados deste.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+      "Contribuição" deve significar qualquer trabalho de autoria, incluindo
+      a versão original do Trabalho e quaisquer modificações ou adições
+      a esse Trabalho ou Trabalhos Derivados deste, que seja intencionalmente
+      submetido ao Licenciador para inclusão no Trabalho pelo proprietário
+      dos direitos autorais ou por um indivíduo ou Entidade Legal autorizado
+      a submeter em nome do proprietário dos direitos autorais. Para os fins
+      desta definição, "submetido" significa qualquer forma de comunicação
+      eletrónica, verbal ou escrita enviada ao Licenciador ou seus
+      representantes, incluindo mas não limitado a comunicação em listas de
+      correio eletrónico, sistemas de controle de código fonte e sistemas de
+      rastreamento de problemas que são geridos por, ou em nome do,
+      Licenciador para o propósito de discutir e melhorar o Trabalho, mas
+      excluindo comunicação que seja marcada de forma proeminente ou
+      designada por escrito pelo proprietário dos direitos autorais como
+      "Não uma Contribuição."
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+      "Contribuidor" deve significar Licenciador e qualquer indivíduo ou
+      Entidade Legal em nome de quem uma Contribuição foi recebida pelo
+      Licenciador e subsequentemente incorporada dentro do Trabalho.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+   2. Concessão de Licença de Direitos Autorais. Sujeito aos termos e
+      condições desta Licença, cada Contribuidor concede a Você uma licença
+      de direitos autorais perpétua, mundial, não exclusiva, sem cobrança,
+      livre de royalties, irrevogável para reproduzir, preparar Trabalhos
+      Derivados de, exibir publicamente, executar publicamente, sublicenciar
+      e distribuir o Trabalho e tais Trabalhos Derivados em forma Fonte ou
+      Objeto.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+   3. Concessão de Licença de Patente. Sujeito aos termos e condições desta
+      Licença, cada Contribuidor concede a Você uma licença de patente
+      perpétua, mundial, não exclusiva, sem cobrança, livre de royalties,
+      irrevogável (exceto conforme indicado nesta seção) para fazer, ter
+      feito, usar, oferecer para venda, vender, importar e de outra forma
+      transferir o Trabalho, onde tal licença se aplica apenas a essas
+      reivindicações de patente licenciáveis por tal Contribuidor que são
+      necessariamente infringidas por sua(s) Contribuição(ões) sozinha(s) ou
+      por combinação de sua(s) Contribuição(ões) com o Trabalho ao qual tal
+      Contribuição(ões) foi submetida. Se Você instituir litígio de patente
+      contra qualquer entidade (incluindo uma reivindicação cruzada ou
+      contradireivindação em um processo) alegando que o Trabalho ou uma
+      Contribuição incorporada dentro do Trabalho constitui infração
+      direta ou contributiva de patente, então quaisquer licenças de patente
+      concedidas a Você sob esta Licença para esse Trabalho terminarão a
+      partir da data em que tal litígio for arquivado.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+   4. Redistribuição. Você pode reproduzir e distribuir cópias do Trabalho
+      ou Trabalhos Derivados deste em qualquer meio, com ou sem
+      modificações, e em forma Fonte ou Objeto, desde que Você atenda às
+      seguintes condições:
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+      (a) Você deve dar a qualquer outro destinatário do Trabalho ou
+          Trabalhos Derivados uma cópia desta Licença; e
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+      (b) Você deve fazer com que quaisquer arquivos modificados carreguem
+          avisos proeminentes afirmando que Você alterou os arquivos; e
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+      (c) Você deve reter, na forma Fonte de quaisquer Trabalhos Derivados
+          que Você distribua, todos os avisos de direitos autorais, patente,
+          marca registrada e atribuição da forma Fonte do Trabalho, excluindo
+          aqueles avisos que não pertencem a qualquer parte dos Trabalhos
+          Derivados; e
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+      (d) Se o Trabalho incluir um arquivo de texto "NOTICE" como parte de
+          sua distribuição, então quaisquer Trabalhos Derivados que Você
+          distribuir devem incluir uma cópia legível dos avisos de atribuição
+          contidos dentro de tal arquivo NOTICE, excluindo aqueles avisos que
+          não pertencem a qualquer parte dos Trabalhos Derivados, em pelo
+          menos um dos seguintes lugares: dentro de um arquivo de texto
+          NOTICE distribuído como parte dos Trabalhos Derivados; dentro da
+          forma Fonte ou documentação, se fornecida junto com os Trabalhos
+          Derivados; ou, dentro de uma exibição gerada pelos Trabalhos
+          Derivados, se e onde tais avisos de terceiros normalmente aparecem.
+          O conteúdo do arquivo NOTICE é apenas para fins informativos e não
+          modifica a Licença. Você pode adicionar seus próprios avisos de
+          atribuição dentro de Trabalhos Derivados que Você distribui,
+          ao lado ou como um adendo ao texto NOTICE do Trabalho, desde que
+          tais avisos de atribuição adicionais não possam ser interpretados
+          como modificando a Licença.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+      Você pode adicionar sua própria declaração de direitos autorais às
+      suas modificações e pode fornecer termos e condições adicionais ou
+      diferentes para uso, reprodução ou distribuição de suas modificações,
+      ou para quaisquer Trabalhos Derivados como um todo, desde que seu uso,
+      reprodução e distribuição do Trabalho de outra forma cumpram as
+      condições declaradas nesta Licença.
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+   5. Submissão de Contribuições. A menos que Você declare explicitamente o
+      contrário, qualquer Contribuição intencionalmente submetida para
+      inclusão no Trabalho por Você ao Licenciador estará sob os termos e
+      condições desta Licença, sem termos ou condições adicionais. Não
+      obstante o acima, nada aqui deve substituir ou modificar os termos de
+      qualquer acordo de licença separado que você possa ter executado com
+      o Licenciador referente a tais Contribuições.
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+   6. Marcas Registradas. Esta Licença não concede permissão para usar os
+      nomes comerciais, marcas registradas, marcas de serviço ou nomes de
+      produtos do Licenciador, exceto conforme necessário para uso razoável
+      e costumeiro na descrição da origem do Trabalho e na reprodução do
+      conteúdo do arquivo NOTICE.
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+   7. Isenção de Garantia. A menos que exigido por lei aplicável ou acordado
+      por escrito, o Licenciador fornece o Trabalho (e cada Contribuidor
+      fornece suas Contribuições) numa base "COMO ESTÁ", SEM GARANTIAS OU
+      CONDIÇÕES DE QUALQUER TIPO, sejam expressas ou implícitas, incluindo,
+      sem limitação, quaisquer garantias ou condições de TÍTULO, NÃO
+      INFRAÇÃO, COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM DETERMINADO PROPÓSITO.
+      Você é o único responsável por determinar a adequação de usar ou
+      redistribuir o Trabalho e assume quaisquer riscos associados ao seu
+      exercício de permissões sob esta Licença.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+   8. Limitação de Responsabilidade. Em nenhum evento e sob nenhuma teoria
+      legal, seja em delito (incluindo negligência), contrato ou de outra
+      forma, a menos que exigido por lei aplicável (como atos deliberados e
+      grosseiramente negligentes) ou acordado por escrito, qualquer
+      Contribuidor será responsável perante Você por danos, incluindo
+      quaisquer danos diretos, indiretos, especiais, incidentais ou
+      consequenciais de qualquer caráter resultantes desta Licença ou fora
+      do uso ou incapacidade de usar o Trabalho (incluindo mas não limitado
+      a danos por perda de boa vontade, parada de trabalho, falha de
+      computador ou mau funcionamento, ou quaisquer e todos os outros danos
+      comerciais ou perdas), mesmo que tal Contribuidor tenha sido avisado
+      da possibilidade de tais danos.
 
-   END OF TERMS AND CONDITIONS
+   9. Aceitação de Garantia ou Responsabilidade Adicional. Ao redistribuir
+      o Trabalho ou Trabalhos Derivados deste, Você pode escolher oferecer,
+      e cobrar uma taxa por, aceitação de suporte, garantia, indenização ou
+      outras obrigações de responsabilidade e/ou direitos consistentes com
+      esta Licença. No entanto, ao aceitar tais obrigações, Você pode agir
+      apenas em seu próprio nome e por sua única responsabilidade, não em
+      nome de qualquer outro Contribuidor, e apenas se Você concordar em
+      indenizar, defender e manter cada Contribuidor inofensivo por qualquer
+      responsabilidade incorrida por, ou reivindicações afirmadas contra,
+      tal Contribuidor por razão de sua aceitação de tal garantia ou
+      responsabilidade adicional.
 
-   APPENDIX: How to apply the Apache License to your work.
+   FIM DOS TERMOS E CONDIÇÕES DA LICENÇA APACHE 2.0
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+================================================================================
+                     APLICAÇÃO AO PROJECTO GARIMPO LOCAL
+================================================================================
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2026 Adilson Chitunda
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+   Licenciado sob a Licença Apache, Versão 2.0 (a "Licença");
+   você não pode usar este arquivo exceto em conformidade com a Licença.
+   Você pode obter uma cópia da Licença em
 
        http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+   A menos que exigido por lei aplicável ou acordado por escrito, software
+   distribuído sob a Licença é distribuído numa base "COMO ESTÁ",
+   SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, sejam expressas ou
+   implícitas. Veja a Licença para o idioma específico que rege permissões
+   e limitações sob a Licença.
+
+================================================================================
+                     O QUE ESTA LICENÇA SIGNIFICA PARA VOCÊ
+================================================================================
+
+   Como utilizador do Garimpo Local, a Licença Apache 2.0 concede-lhe
+   os seguintes direitos:
+
+   DIREITOS CONCEDIDOS:
+   ✓ Uso comercial e não comercial do software
+   ✓ Modificação do código fonte e documentação
+   ✓ Distribuição do software original ou modificado
+   ✓ Incorporação em outros projectos (incluindo proprietários)
+   ✓ Sublicenciamento do trabalho
+   ✓ Uso de patentes necessárias para utilizar o software
+
+   OBRIGAÇÕES:
+   ✓ Incluir o aviso de direitos autorais original em todas as cópias
+   ✓ Indicar claramente as alterações feitas aos arquivos originais
+   ✓ Manter todos os avisos de atribuição existentes
+   ✓ Incluir uma cópia desta licença em redistribuições
+   ✓ Respeitar as restrições de uso de marcas e nomes comerciais
+
+   RESTRIÇÕES:
+   ✗ Não pode usar o nome "Garimpo Local" sem permissão explícita
+   ✗ Não pode usar logotipos, marcas ou identidade visual do projecto
+   ✗ Não pode remover avisos de direitos autorais ou atribuição
+   ✗ Não pode reclamar que o software é seu quando não for
+
+   GARANTIAS:
+   • O software é fornecido "COMO ESTÁ", sem garantias
+   • Os desenvolvedores não são responsáveis por danos
+   • Use por sua conta e risco
+
+================================================================================
+                     EXEMPLO DE APLICAÇÃO EM ARQUIVOS
+================================================================================
+
+   Para aplicar esta licença aos seus arquivos, adicione o seguinte cabeçalho:
+
+   /*
+    * Copyright 2026 [Seu Nome]
+    *
+    * Licenciado sob a Licença Apache, Versão 2.0 (a "Licença");
+    * você não pode usar este arquivo exceto em conformidade com a Licença.
+    * Você pode obter uma cópia da Licença em
+    *
+    *     http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * A menos que exigido por lei aplicável ou acordado por escrito, software
+    * distribuído sob a Licença é distribuído numa base "COMO ESTÁ",
+    * SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, sejam expressas ou
+    * implícitas. Veja a Licença para o idioma específico que rege permissões
+    * e limitações sob a Licença.
+    */
+
+================================================================================
+                     INFORMAÇÕES ADICIONAIS
+================================================================================
+
+   SOBRE O PROJECTO:
+
+   O Garimpo Local é uma plataforma open-source desenvolvida para conectar
+   residentes de Angola a trabalhadores locais qualificados e empresas.
+   Esta licença permite que a comunidade contribua, melhore e utilize o
+   projecto de forma aberta e colaborativa.
+
+   CONTRIBUIÇÃO:
+
+   Ao contribuir com código para o Garimpo Local, você concorda que a sua
+   contribuição será licenciada sob a mesma Licença Apache 2.0, permitindo
+   que o projecto continue sendo open-source.
+
+   SUPORTE:
+
+   Para questões sobre a licença ou uso do projecto, contacte:
+   - Email: garimpolocaljob@gmail.com
+   - WhatsApp: +244 940 924 251
+   - GitHub: https://github.com/garimpolocal/garimpolocal/issues
+
+   RECURSOS:
+
+   - Texto oficial da licença: http://www.apache.org/licenses/LICENSE-2.0
+   - FAQ da licença Apache: https://www.apache.org/foundation/license-faq.html
+   - Guia para contribuidores: https://github.com/garimpolocal/garimpolocal/blob/main/README.md
+
+================================================================================
+                     FIM DO ARQUIVO DE LICENÇA
+================================================================================
